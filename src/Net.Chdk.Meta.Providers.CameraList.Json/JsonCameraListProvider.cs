@@ -8,7 +8,7 @@ namespace Net.Chdk.Meta.Providers.CameraList.Json
     {
         #region IInnerCameraListProvider Members
 
-        public IDictionary<string, ListPlatformData> GetCameraList(string path, string categoryName)
+        public IDictionary<string, ListPlatformData> GetCameraList(string path, string productName)
         {
             return GetCameras(path);
         }
